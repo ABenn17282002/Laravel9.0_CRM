@@ -2,6 +2,7 @@
 import { Head, Link } from '@inertiajs/inertia-vue3';
 
 defineProps({
+    // Vueの表示には連想配列で引数を渡す。
     canLogin: Boolean,
     canRegister: Boolean,
     laravelVersion: String,
